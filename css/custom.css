@@ -1,0 +1,85 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, p, label{
+    color: white;
+}
+
+/* HEADER */
+
+.nav-link{
+    color: #62eda1;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: #3e9a67;
+}
+/* SERVICIOS */
+
+/* BENEFICIOS */
+.card {
+    background-color: #00bcd4;
+    width: 150px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+}
+
+.card .icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+/* PREGUNTAS FRECUENTES */
+.accordion-button, .accordion-button:not(.collapsed){
+    background-color: #0b153d;
+    color: white;
+}
+
+/* BOTON DE CONOCENOS */
+.btn-flotante {
+    font-size: 16px; /* Tamaño de la tipografía */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    font-weight: bold; /* Fuente en negrita */
+    text-decoration: none;
+    color: #ffffff; /* Color del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #01d1b0; /* Color de fondo */
+    padding: 18px 30px; /* Relleno del botón */
+    position: fixed; /* Fijo en la pantalla */
+    bottom: 40px; /* Distancia desde el fondo */
+    right: 40px; /* Distancia desde la derecha */
+    transition: 0.4s; /* Transición suave */
+    z-index: 1; /* Asegura que esté por encima de otros elementos */
+}
+
+.btn-flotante:hover {
+    background-color: #017fe1; /* Color de fondo al pasar el cursor */
+    transform: translateY(-7px); /* Efecto de elevación al pasar el cursor */
+}
