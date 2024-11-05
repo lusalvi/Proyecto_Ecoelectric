@@ -8,10 +8,6 @@ body{
     padding: 0;
 }
 
-h1, h2, h3, p, label{
-    color: white;
-}
-
 /* HEADER */
 
 header img{
@@ -20,50 +16,97 @@ header img{
 
 .nav-link{
     color: #62eda1;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .nav-link:hover{
     color: #3e9a67;
 }
-/* SERVICIOS */
+
+/* INICIO */
+.inicio{
+    display: flex;
+}
+
+.titulo h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+}
+
+.titulo h1+h1{
+    color:#62eda1;
+}
+
+.gift img{
+    border-radius: 50%;
+    width: 300px;  
+    margin-left: 80px;
+}
 
 /* BENEFICIOS */
-.card {
-    background-color: #00bcd4;
-    width: 150px;
-    border-radius: 10px;
-    padding: 20px;
+#Beneficios{
+    background-color: white;
+    padding-top: 30px;
+}
+
+#Beneficios .card {
+    background-color: #01d1b0; 
     text-align: center;
     color: white;
     font-family: Arial, sans-serif;
+}
+
+.icon img{
+    width: 60px;
     margin: 10px;
 }
 
-.card .icon {
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-
-.card h3 {
+#Beneficios .card h3 {
     font-size: 18px;
     margin: 10px 0;
 }
 
-.card p {
+#Beneficios .card p {
     font-size: 14px;
     line-height: 1.5;
 }
 
-.card:hover {
+#Beneficios .card:hover {
     transform: scale(1.05);
     transition: transform 0.3s;
 }
 
 /* PREGUNTAS FRECUENTES */
 .accordion-button, .accordion-button:not(.collapsed){
-    background-color: #0b153d;
+    background-color: #017fe1;
     color: white;
+}
+
+#Preguntas h1{
+    color: white;
+}
+
+/* CONTACTO */
+#Contacto{
+    background-color: white;
+    padding-top: 30px;
+}
+
+#Contacto .card{
+    background-color: #0b153d;
+    padding: 20px;
+}
+
+#Contacto h2, p, label{
+    color: white;
+}
+
+#Contacto button{
+    background-color: #01d1b0;
+    color: white;
+    border-color: #01d1b0;
+
 }
 
 /* BOTON DE CONOCENOS */
@@ -86,4 +129,11 @@ header img{
 .btn-flotante:hover {
     background-color: #017fe1; /* Color de fondo al pasar el cursor */
     transform: translateY(-7px); /* Efecto de elevación al pasar el cursor */
+}
+
+/* FOOTER */
+footer{
+    background-color: #ffffff;
+    color: white;
+    padding: 20px;
 }
