@@ -1,0 +1,139 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(15, 15, 15);
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header img{
+    margin-left: 30px;
+}
+
+.nav-link{
+    color: #62eda1;
+    font-weight: bolder;
+}
+
+.nav-link:hover{
+    color: #3e9a67;
+}
+
+/* INICIO */
+.inicio{
+    display: flex;
+}
+
+.titulo h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+}
+
+.titulo h1+h1{
+    color:#62eda1;
+}
+
+.gift img{
+    border-radius: 50%;
+    width: 300px;  
+    margin-left: 80px;
+}
+
+/* BENEFICIOS */
+#Beneficios{
+    background-color: white;
+    padding-top: 30px;
+}
+
+#Beneficios .card {
+    background-color: #01d1b0; 
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.icon img{
+    width: 60px;
+    margin: 10px;
+}
+
+#Beneficios .card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#Beneficios .card p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+#Beneficios .card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+/* PREGUNTAS FRECUENTES */
+.accordion-button, .accordion-button:not(.collapsed){
+    background-color: #017fe1;
+    color: white;
+}
+
+#Preguntas h1{
+    color: white;
+}
+
+/* CONTACTO */
+#Contacto{
+    background-color: white;
+    padding-top: 30px;
+}
+
+#Contacto .card{
+    background-color: #0b153d;
+    padding: 20px;
+}
+
+#Contacto h2, p, label{
+    color: white;
+}
+
+#Contacto button{
+    background-color: #01d1b0;
+    color: white;
+    border-color: #01d1b0;
+
+}
+
+/* BOTON DE CONOCENOS */
+.btn-flotante {
+    font-size: 16px; /* Tamaño de la tipografía */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    font-weight: bold; /* Fuente en negrita */
+    text-decoration: none;
+    color: #ffffff; /* Color del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #01d1b0; /* Color de fondo */
+    padding: 18px 30px; /* Relleno del botón */
+    position: fixed; /* Fijo en la pantalla */
+    bottom: 40px; /* Distancia desde el fondo */
+    right: 40px; /* Distancia desde la derecha */
+    transition: 0.4s; /* Transición suave */
+    z-index: 1; /* Asegura que esté por encima de otros elementos */
+}
+
+.btn-flotante:hover {
+    background-color: #017fe1; /* Color de fondo al pasar el cursor */
+    transform: translateY(-7px); /* Efecto de elevación al pasar el cursor */
+}
+
+/* FOOTER */
+footer{
+    background-color: #ffffff;
+    color: white;
+    padding: 20px;
+}
