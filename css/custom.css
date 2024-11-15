@@ -6,6 +6,11 @@ body{
     background-color: rgb(15, 15, 15);
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+}
+
+html {
+    overflow-x: hidden;
 }
 
 /* HEADER */
@@ -17,6 +22,7 @@ header img{
 .nav-link{
     color: #62eda1;
     font-weight: bolder;
+    z-index: 2;
 }
 
 .nav-link:hover{
@@ -24,21 +30,18 @@ header img{
 }
 
 /* INICIO */
-.inicio{
-    display: flex;
-}
 
-.titulo h1{
-    font-size: 80px;
+#titulo h1{
+    font-size: 64px;
     font-weight: bold;
     color: white;
 }
 
-.titulo h1+h1{
+#titulo h1+h1{
     color:#62eda1;
 }
 
-.gift img{
+#gift img{
     border-radius: 50%;
     width: 300px;  
     margin-left: 80px;
@@ -106,7 +109,12 @@ header img{
     background-color: #01d1b0;
     color: white;
     border-color: #01d1b0;
+}
 
+#Contacto button:hover{
+    background-color: #02a88c;
+    color: white;
+    transition: 0.3s;
 }
 
 /* BOTON DE CONOCENOS */
@@ -135,5 +143,22 @@ header img{
 footer{
     background-color: #ffffff;
     color: white;
-    padding: 20px;
+    
 }
+
+#creditos{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.iconos{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.iconos :hover{
+    color: #01d1b0;
+}
+
