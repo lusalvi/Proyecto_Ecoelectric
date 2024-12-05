@@ -25,46 +25,61 @@
 
 <body>
   <!--HEADER-->
-  <header class="d-flex flex-wrap justify-content-center align-items-center py-3">
-    <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-      <img src="image/Logo-ecoelectric-header-blanco.png" alt="Logo Ecoelectric">
-    </a>
-    <!-- NAVBAR -->
-    <ul class="nav nav-pills">
-      <li class="nav-item"><a href="#Inicio" class="nav-link" aria-current="page">Inicio</a></li>
-      <li class="nav-item"><a href="#Servicios" class="nav-link">Servicios</a></li>
-      <li class="nav-item"><a href="#Beneficios" class="nav-link">Beneficios</a></li>
-      <li class="nav-item"><a href="#Preguntas" class="nav-link">Preguntas Frecuentes</a></li>
-      <li class="nav-item"><a href="#Contacto" class="nav-link">Contacto</a></li>
-      <!-- <li class="nav-item"><a href="https://ecoelectric.com.ar/" class="nav-link active">CONOCE MÁS</a></li> -->
-    </ul>
-  </header>
+  <header class="d-flex flex-wrap justify-content-between align-items-center py-3">
 
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg w-100">
+      <div class="container-fluid">
+        <!-- Logo -->
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <img src="image/Logo-ecoelectric-header-blanco.png" alt="Logo Ecoelectric" class="img-fluid"
+            style="max-height: 50px;">
+        </a>
+
+        <!-- Botón Toggle -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menú -->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarScroll">
+          <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item"><a href="#Inicio" class="nav-link">Inicio</a></li>
+            <li class="nav-item"><a href="#Servicios" class="nav-link">Servicios</a></li>
+            <li class="nav-item"><a href="#Beneficios" class="nav-link">Beneficios</a></li>
+            <li class="nav-item"><a href="#Preguntas" class="nav-link">Preguntas Frecuentes</a></li>
+            <li class="nav-item"><a href="#Contacto" class="nav-link">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
   <!--INICIO-->
   <section id="Inicio">
-    <div class="container col-xxl-8 px-4 py-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6"  id="gift">
-          <img src="/image/panel-solar.gif" class="d-block mx-lg-auto img-fluid" alt="Panel Solar">
+    <div class="text-secondary px-4 py-5 text-center">
+      <div class="py-5">
+        <div id="titulo">
+          <h1 class="display-5 fw-bold text-white">ENCIENDE EL</h1>
+          <h1 class="display-5 fw-bold ">FUTURO</h1>
         </div>
-        <div class="col-lg-6" id="inicio">
-          <div id="titulo">
-            <h1 class="display-5 mb-3">ENCIENDE EL</h1>
-            <h1 class="display-5 mb-3">FUTURO</h1>
-          </div>
-          
-          <p class="lead">En Ecoelectric, te ayudamos a ahorrar energía y reducir tu huella de carbono con la instalación de paneles
+
+        <div class="col-lg-6 mx-auto">
+          <p class="fs-5 mb-4">En Ecoelectric, te ayudamos a ahorrar energía y reducir tu huella de carbono con la
+            instalación de paneles
             solares de alta calidad.
-            Nuestro Equipo de expertos te ofrece soluciones personalizadas para hogares y empresas, asegurando un
-            servicio eficiente y sostenible.
             Transforma tu consumo energético y únete al cambio hacia un futuro más verde con Ecoelectric.</p>
-          
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">
+              <a href="https://ecoelectric.com.ar/">CONOCENOS</a>
+            </button>
+          </div>
         </div>
       </div>
     </div>
   </section>
-  <hr style="color: white;" ><br>
+  <hr style="color: white;"><br>
 
   <!-- SERVICIOS -->
   <section id="Servicios">
@@ -82,11 +97,11 @@
             src="https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="" height="100%" width="100%" class="opacity-50">
           <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-          </svg>
           <div class="container">
             <div class="carousel-caption text-start">
               <h1>INSTALACIÓN</h1>
-              <p class="opacity-75">Solicitá la instalación de sistemas de energía fotovoltaica para hogares, empresas e industrias.</p>
+              <p class="opacity-75">Solicitá la instalación de sistemas de energía fotovoltaica para hogares, empresas e
+                industrias.</p>
             </div>
           </div>
         </div>
@@ -96,7 +111,6 @@
             src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="" width="100%" height="100%" class="opacity-50">
           <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-          </svg>
           <div class="container">
             <div class="carousel-caption">
               <h1>COMERCIALIZACIÓN</h1>
@@ -109,7 +123,6 @@
           <img
             src="https://images.unsplash.com/photo-1611365892117-00ac5ef43c90?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="" width="100%" height="100%" class="opacity-50">
-          </svg>
           <div class="container">
             <div class="carousel-caption text-end">
               <h1>HABILITACIÓN</h1>
@@ -127,7 +140,7 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-  
+
   </section>
 
   <!-- BENEFICIOS -->
@@ -135,43 +148,33 @@
     <div id="container">
       <div class="d-flex justify-content-center ">
         <div class="row justify-content-center">
-          <div class="col-sm-3 mb-3">
+          <div class="col-sm-4 mb-3">
             <div class="card">
               <div class="card-body">
                 <div class="icon">
                   <img src="/image/energia-solar.png" alt="">
                 </div>
                 <h5 class="card-title">Ahorro en tu factura de luz</h5>
-                <p class="card-text">Reduce tu factura eléctrica invirtiendo en energía fotovoltaica. ¡Genera tu propia
-                  electricidad y disfruta de un ahorro constante!</p>
-                <br>
               </div>
             </div>
           </div>
-          <div class="col-sm-3 mb-3">
+          <div class="col-sm-4 mb-3">
             <div class="card">
               <div class="card-body">
                 <div class="icon">
                   <img src="/image/ambiental.png" alt="">
                 </div>
                 <h5 class="card-title">Cuidado del medio ambiente</h5>
-                <p class="card-text">Al generar tu propia energía con paneles solares, reduces significativamente tu
-                  huella de carbono. ¡Invierte en energía fotovoltaica y protege el planeta!</p>
-                <br>
               </div>
             </div>
           </div>
-          <div class="col-sm-3 mb-3">
+          <div class="col-sm-4 mb-3">
             <div class="card">
               <div class="card-body">
                 <div class="icon">
                   <img src="/image/tecnico.png" alt="">
                 </div>
                 <h5 class="card-title">Asesoría Personalizada!</h5>
-                <p class="card-text">Ecoelectric ofrece asesoría personalizada para entender las necesidades de cada
-                  cliente y recomendar soluciones energéticas adaptadas a su hogar o negocio.
-                </p>
-                <p></p>
               </div>
             </div>
           </div>
@@ -258,38 +261,38 @@
             servicios</p>
         </div>
 
-        <form class="needs-validation" novalidate>
+        <form class="needs-validation" novalidate action="https://formsubmit.co/35d56872fa7726602d1c58f2f2b97eda" method="POST">
           <div class="row g-3">
             <!-- Nombre y apellido -->
             <div class="col-sm-6">
               <label for="firstName" class="form-label">Nombre</label>
-              <input type="text" class="form-control" id="firstName" required>
+              <input type="text" class="form-control" id="firstName" name="firstName" required>
               <div class="invalid-feedback">Valid first name is required.</div>
             </div>
 
             <div class="col-sm-6">
               <label for="lastName" class="form-label">Apellido</label>
-              <input type="text" class="form-control" id="lastName" required>
+              <input type="text" class="form-control" id="lastName" name="lastName" required>
               <div class="invalid-feedback">Valid last name is required.</div>
             </div>
 
             <!-- Email y teléfono -->
             <div class="col-6">
               <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" placeholder="correo@gmail.com" required>
+              <input type="email" class="form-control" id="email" placeholder="correo@gmail.com" name="email" required>
               <div class="invalid-feedback">Please enter a valid email address.</div>
             </div>
 
             <div class="col-6">
-              <label for="phone" class="form-label">Número de teléfono</label>
-              <input type="tel" class="form-control" id="phone" placeholder="+54" required>
+              <label for="phone" class="form-label">N° de teléfono</label>
+              <input type="tel" class="form-control" id="phone" placeholder="+54" name="phone" required>
               <div class="invalid-feedback">Please enter a valid phone number.</div>
             </div>
 
             <!-- Motivo de consulta y detalles -->
             <div class="col-md-6">
               <label for="state" class="form-label">Motivo de consulta</label>
-              <select class="form-select" id="state" required>
+              <select class="form-select" id="state" name="state" required>
                 <option value="">Choose...</option>
                 <option>Comercialización</option>
                 <option>Instalación</option>
@@ -299,8 +302,8 @@
             </div>
 
             <div class="col-12">
-              <label for="address" class="form-label">¿Querés dejarnos más detalles?</label>
-              <textarea type="text" class="form-control" id="address" placeholder="Escriba su mensaje aquí..."
+              <label for="mensaje" class="form-label">¿Querés dejarnos más detalles?</label>
+              <textarea type="text" class="form-control" id="mensaje" name="mensaje" placeholder="Escriba su mensaje aquí..."
                 required></textarea>
               <div class="invalid-feedback">Por favor, ingrese su mensaje.</div>
             </div>
@@ -309,6 +312,8 @@
           <hr class="my-4">
 
           <button class="w-100 btn btn-primary btn-lg" type="submit">Enviar mensaje</button>
+          <input type="hidden" name="_next" value="http://127.0.0.1:5501/index.html">
+          <input type="hidden" name="_captcha" value="false">
         </form>
       </div>
 
@@ -328,7 +333,8 @@
         d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
     </symbol>
     <symbol id="whatsapp" viewBox="0 0 16 16">
-        <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>      
+      <path
+        d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
     </symbol>
   </svg>
 
@@ -340,13 +346,17 @@
     </div>
     <div class="iconos">
       <ul class="nav">
-        <li class="ms-3"><a class="text-body-secondary" href="https://api.whatsapp.com/send/?phone=5492616677453&type=phone_number&app_absent=0"><svg class="bi" width="24" height="24">
+        <li class="ms-3"><a class="text-body-secondary"
+            href="https://api.whatsapp.com/send/?phone=5492616677453&type=phone_number&app_absent=0"><svg class="bi"
+              width="24" height="24">
               <use xlink:href="#whatsapp" />
             </svg></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/ecoelectric.sa/"><svg class="bi" width="24" height="24">
+        <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/ecoelectric.sa/"><svg class="bi"
+              width="24" height="24">
               <use xlink:href="#instagram" />
             </svg></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/ecoelectricmendoza"><svg class="bi" width="24" height="24">
+        <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/ecoelectricmendoza"><svg
+              class="bi" width="24" height="24">
               <use xlink:href="#facebook" />
             </svg></a></li>
       </ul>
@@ -354,11 +364,6 @@
 
   </footer>
 
-  <!-- BOTON DE CONOCENOS -->
-   <div>
-    <a href="https://ecoelectric.com.ar/" class="btn-flotante">CONOCENOS</a>
-   </div>
-  
 </body>
 
 <script src="/js/bootstrap.js"></script>
